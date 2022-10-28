@@ -44,9 +44,15 @@ class SimpleReport:
 
     @classmethod
     def get_company_with_most_products(cls, inventories):
+        companies_counted = cls.count_companies(inventories)
+        companies_counted_list = companies_counted.most_common()
+
+        first_from_the_count = companies_counted_list[0][0]
+        return first_from_the_count
+
+    @classmethod
+    def count_companies(cls, inventories):
         company_names = [
             inventory["nome_da_empresa"] for inventory in inventories
         ]
-        count_companies = Counter(company_names).most_common()
-        first_from_the_count = count_companies[0][0]
-        return first_from_the_count
+        return Counter(company_names)
