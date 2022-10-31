@@ -2,6 +2,7 @@ version: '3.6'
 
 services:
   inventory:
+    container_name: project-inventory-report
     build:
       context: .
     volumes:
@@ -10,3 +11,5 @@ services:
       - TEMPLATES_AUTO_RELOAD=True
       - PYTHONUNBUFFERED=1
       - APPLY_TO_ALL=True
+    stdin_open: true
+    tty: true

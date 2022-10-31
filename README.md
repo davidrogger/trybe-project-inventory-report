@@ -91,8 +91,49 @@ Importante: seguir a ordem apresentada a baixo, para o funcionamento.
   </summary>
 
 Para ver a aplicação funcionando basta iniciar o docker compose, basta esta na pasta do repositório tendo o requisitos conforme informado na aba de requisitos, e iniciar o docker com `docker-compose up -d`
-Após o container "levantar" basta acessar a url: `http://localhost:5000/`
+
+Após levantar o container para interagir com os comandos de linha, é necessário acessar o container usando o comando a seguir, `docker exec -it project-inventory-report bash`, dentro do terminal do container é necessário entrar no ambiente virtual do python com o comando, `source .venv/bin/activate`, após esse comando o inicio do termina deve aparecer com o `(.venv)` antes do root, deve-se usar o comando `pip install .` para instalar o inventory_report, após isso basta usar o comando apresentado na parte de amostra e determinar o arquivo que deseja importar, possuimos 3 arquivos padrões, csv, json e xml.
+
+
 
 </details>
+
+</details>
+
+<details>
+  <summary>
+    <strong>
+      :newspaper_roll: Requisitos solicitados durante o desenvolvimento do projeto
+    </strong>
+  </summary>
+
+ 
+### Resultado por requisito
+*Nome* | *Avaliação*
+--- | :---:
+1 - Deve criar um novo produto com todos os atributos corretamente preenchidos | :heavy_check_mark:
+2 - O retorno padrão de um objeto Product deve ser um relatório sobre ele | :heavy_check_mark:
+3.1 - O método generate da classe SimpleReport deve retornar todas informações do relatório simples | :heavy_check_mark:
+3.2 - O método generate da classe SimpleReport deve retornar o formato correto do relatório simples | :heavy_check_mark:
+4 - O método generate da classe CompleteReport deve retornar todas informações do relatório completo | :heavy_check_mark:
+5 - Ao importar um arquivo csv, deve retornar o relatórios simples ou o completo conforme solicitado | :heavy_check_mark:
+6 - Ao importar um arquivo JSON, deve retornar o relatórios simples ou o completo conforme solicitado | :heavy_check_mark:
+7 - Ao importar um arquivo XML, deve retornar o relatórios simples ou o completo conforme solicitado | :heavy_check_mark:
+8 - As classes estratégicas CsvImporter, JsonImporter e CsvImporter devem retornar os dados dos produtos em uma lista | :heavy_check_mark:
+9 - Deve retornar o relatório devidamente colorido | :heavy_check_mark:
+10.1 - Será validado que a instancia de InventoryRefactor é iterável (Iterable) | :heavy_check_mark:
+10.2 - Será validado que é possível iterar o primeiro item da lista usando csv | :heavy_check_mark:
+10.3 - Será validado que é possível iterar o primeiro item da lista usando json | :heavy_check_mark:
+10.4 - Será validado que é possível iterar o primeiro item da lista usando xml | :heavy_check_mark:
+10.5 - Será validado que é possível receber duas fontes de dados sem sobrescrita | :heavy_check_mark:
+10.6 - Será validado que não é possível enviar arquivo inválido | :heavy_check_mark:
+11.1 - Será validado que o menu importa um arquivo csv e gera um report simples | :heavy_check_mark:
+11.2 - Será validado que o menu importa um arquivo csv e gera um report completo | :heavy_check_mark:
+11.3 - Será validado que o menu importa um arquivo json e gera um report simples | :heavy_check_mark:
+11.4 - Será validado que o menu importa um arquivo json e gera um report completo | :heavy_check_mark:
+11.5 - Será validado que o menu importa um arquivo xml e gera um report simples | :heavy_check_mark:
+11.6 - Será validado que o menu importa um arquivo xml e gera um report completo | :heavy_check_mark:
+11.7 - Será validado que enviar argumentos faltantes irá gerar um erro | :heavy_check_mark:
+
 
 </details>
