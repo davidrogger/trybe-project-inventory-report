@@ -111,8 +111,8 @@ Após levantar o container para interagir com os comandos de linha, é necessár
 ### Resultado por requisito
 *Nome* | *Avaliação*
 --- | :---:
-1 - Deve criar um novo produto com todos os atributos corretamente preenchidos | :heavy_check_mark:
-2 - O retorno padrão de um objeto Product deve ser um relatório sobre ele | :heavy_check_mark:
+1 - Deve criar um teste para o novo produto com todos os atributos corretamente preenchidos | :heavy_check_mark:
+2 - Criar um teste que garanta o retorno padrão de um objeto Product deve ser um relatório sobre ele | :heavy_check_mark:
 3.1 - O método generate da classe SimpleReport deve retornar todas informações do relatório simples | :heavy_check_mark:
 3.2 - O método generate da classe SimpleReport deve retornar o formato correto do relatório simples | :heavy_check_mark:
 4 - O método generate da classe CompleteReport deve retornar todas informações do relatório completo | :heavy_check_mark:
@@ -120,7 +120,7 @@ Após levantar o container para interagir com os comandos de linha, é necessár
 6 - Ao importar um arquivo JSON, deve retornar o relatórios simples ou o completo conforme solicitado | :heavy_check_mark:
 7 - Ao importar um arquivo XML, deve retornar o relatórios simples ou o completo conforme solicitado | :heavy_check_mark:
 8 - As classes estratégicas CsvImporter, JsonImporter e CsvImporter devem retornar os dados dos produtos em uma lista | :heavy_check_mark:
-9 - Deve retornar o relatório devidamente colorido | :heavy_check_mark:
+9 - Deve criar um teste garantindo que retornar o relatório devidamente colorido | :heavy_check_mark:
 10.1 - Será validado que a instancia de InventoryRefactor é iterável (Iterable) | :heavy_check_mark:
 10.2 - Será validado que é possível iterar o primeiro item da lista usando csv | :heavy_check_mark:
 10.3 - Será validado que é possível iterar o primeiro item da lista usando json | :heavy_check_mark:
