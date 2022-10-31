@@ -67,7 +67,7 @@
 - Por ja ter uma pouco mais de experiência com orientações a objetos em seções anteriores usando o typescript, foi bem interassante, coisas que não fazia sentido no typescript, agora soavam bem mais naturais que no primeiro contato na época.
 - Agora é mais ter paciência e sempre que cabivel, tentar adotar o uso de orientação a objetos e o uso de padrão de projetos, por questão de treinamento, assim como o solid, tenho uma jornada para aplicar e entender o uso no código.
 
-# Iniciando o Projeto Report Inventory.
+# Iniciando o Projeto Inventory Report.
 
 Importante: seguir a ordem apresentada a baixo, para o funcionamento.
 
