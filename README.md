@@ -14,7 +14,7 @@
 
   ## Comando:
   ```
-  inventory "caminho" "tipo de relatório
+  inventory "caminho" "tipo de relatório"
   ```
 
   ## Exemplo Relatório Simples:
