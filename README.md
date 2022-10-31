@@ -65,7 +65,7 @@
 # Conclusão
 
 - Por ja ter uma pouco mais de experiência com orientações a objetos em seções anteriores usando o typescript, foi bem interassante, coisas que não fazia sentido no typescript, agora soavam bem mais naturais que no primeiro contato na época.
-- Agora é mais ter paciência e sempre que cabivel, tentar adotar o uso de orientação a objetos e o uso de projeto, por questão de treinamento mesmo, assim como o solid, tenho uma jornada para aplicar no meu código o uso desses conceitos.
+- Agora é mais ter paciência e sempre que cabivel, tentar adotar o uso de orientação a objetos e o uso de padrão de projetos, por questão de treinamento, assim como o solid, tenho uma jornada para aplicar e entender o uso no código.
 
 # Iniciando o Projeto Report Inventory.
 
