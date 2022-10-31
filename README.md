@@ -60,7 +60,7 @@
 # Desafios
 
 - Foram de pesquisar as novas sintaxes e "ferramentas" para nova linguagem adotada e adaptalidade com algumas funcionalidades do python, como importação de modulos.
-- O maior desafio dessa seção, nem do projeto em si foi entender melhor o uso dos padrões, por falta de experiencia.O uso de alguns padrões ainda soa confuso.
+- O maior desafio dessa seção, nem do projeto em si, foi de entender melhor o uso dos padrões(Iterator), por falta de experiencia.O uso de alguns padrões ainda soa confuso.
 
 # Conclusão
 
