@@ -31,9 +31,7 @@
 
 ## Projeto: `Inventory Report`
 
-- Segundo projeto do modulo de Ciências da Computação da trybe.
-- Desenvolvido classes usando o tema da seção 2, que aborda, orientação a objetos, e padrão de projetos(Strategy, iterator e decorator).
-- Desenvolvido classes, com habilidade de leitura de arquivos CSV, JSON e XML, gerando uma relatório dinâmico, que podia ser simples ou completo.
+- Desenvolvendo classes, com habilidade de leitura de arquivos CSV, JSON e XML, gerando uma relatório dinâmico, que podia ser simples ou completo.
 - Ao finalizar o projeto é possível após a instalação dos módulos criados nele `pip install .`, chamar o metodo para gerar um relatório por linha de comando:
 
 <details>
