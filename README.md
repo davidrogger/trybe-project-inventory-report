@@ -12,13 +12,13 @@
   <a href="https://refactoring.guru/pt-br/design-patterns/adapter">
     <img src="https://refactoring.guru/images/patterns/content/adapter/adapter-pt-br.png?id=05f144d30c63000fbe59e09f29bb488d" width="30%"></img>
   </a>
-  <a href="https://refactoring.guru/pt-br/design-patterns/decorator">
+  <a href="https://refactoring.guru/pt-br/design-patterns/strategy">
     <img src="https://refactoring.guru/images/patterns/content/strategy/strategy.png?id=379bfba335380500375881a3da6507e0" width="30%"></img>
   </a>
-  <a href="https://refactoring.guru/pt-br/design-patterns/observer">
+  <a href="https://refactoring.guru/pt-br/design-patterns/decorator">
     <img src="https://refactoring.guru/images/patterns/content/decorator/decorator.png?id=710c66670c7123e0928d3b3758aea79e" width="30%"></img>
   </a>
-  <a href="https://refactoring.guru/pt-br/design-patterns/strategy">
+  <a href="https://refactoring.guru/pt-br/design-patterns/observer">
     <img src="https://refactoring.guru/images/patterns/content/observer/observer.png?id=6088e31e1b0d4a417506a66614dcf065" width="30%"></img>
   </a>
   <a href="https://refactoring.guru/pt-br/design-patterns/abstract-factory">
