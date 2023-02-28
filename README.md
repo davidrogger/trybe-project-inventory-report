@@ -1,4 +1,35 @@
-# Sobre o Projeto 
+# Sobre
+
+## Seção: `Padrões de Projeto`
+
+- Revisando orientação a objetos aprendendo a sintaxe com python para criação de novas classes e introdução a padrões de projetos abordando iterator, adapter, strategy, decorator, observer e factory.
+
+#
+<div align="center">
+  <a href="https://refactoring.guru/pt-br/design-patterns/iterator">
+    <img src="https://refactoring.guru/images/patterns/content/iterator/iterator-en.png?id=d19123d71d355d01b0ede4be173eb695" width="30%"></img>
+  </a>
+  <a href="https://refactoring.guru/pt-br/design-patterns/adapter">
+    <img src="https://refactoring.guru/images/patterns/content/adapter/adapter-pt-br.png?id=05f144d30c63000fbe59e09f29bb488d" width="30%"></img>
+  </a>
+  <a href="https://refactoring.guru/pt-br/design-patterns/decorator">
+    <img src="https://refactoring.guru/images/patterns/content/strategy/strategy.png?id=379bfba335380500375881a3da6507e0" width="30%"></img>
+  </a>
+  <a href="https://refactoring.guru/pt-br/design-patterns/observer">
+    <img src="https://refactoring.guru/images/patterns/content/decorator/decorator.png?id=710c66670c7123e0928d3b3758aea79e" width="30%"></img>
+  </a>
+  <a href="https://refactoring.guru/pt-br/design-patterns/strategy">
+    <img src="https://refactoring.guru/images/patterns/content/observer/observer.png?id=6088e31e1b0d4a417506a66614dcf065" width="30%"></img>
+  </a>
+  <a href="https://refactoring.guru/pt-br/design-patterns/abstract-factory">
+    <img src="https://refactoring.guru/images/patterns/content/abstract-factory/abstract-factory-pt-br.png?id=9d3c1f21c36d3014a29809e6c36e3861" width="30%"></img>
+  </a>
+</div>
+
+>Images do [refactoring guru](https://refactoring.guru/pt-br/design-patterns/python)
+
+
+## Projeto: `Inventory Report`
 
 - Segundo projeto do modulo de Ciências da Computação da trybe.
 - Desenvolvido classes usando o tema da seção 2, que aborda, orientação a objetos, e padrão de projetos(Strategy, iterator e decorator).
@@ -8,7 +39,7 @@
 <details>
   <summary>
     <strong>
-      :telescope: Amostra da linha de comando:
+      :telescope: Projeto CLI:
     </strong>
   </summary>
 
@@ -59,12 +90,12 @@
 
 # Desafios
 
-- Foram de pesquisar as novas sintaxes e "ferramentas" para nova linguagem adotada e adaptalidade com algumas funcionalidades do python, como importação de modulos.
-- O maior desafio dessa seção, nem do projeto em si, foi de entender melhor o uso dos padrões(Iterator), por falta de experiencia.O uso de alguns padrões ainda soa confuso.
+- Pesquisar as novas sintaxes e "ferramentas" para nova linguagem adotada e adaptalidade com algumas funcionalidades do python, como importação de modulos.
+- O maior desafio dessa seção, nem do projeto em si, foi de entender melhor o uso dos padrões(Iterator), por falta de experiencia. O uso de alguns padrões ainda soa confuso.
 
 # Conclusão
 
-- Por ja ter uma pouco mais de experiência com orientações a objetos em seções anteriores usando o typescript, foi bem interassante, coisas que não fazia sentido no typescript, agora soavam bem mais naturais que no primeiro contato na época.
+- Com um pouco mais de experiência com orientações a objetos em seções anteriores usando o typescript, foi bem interassante, coisas que não fazia sentido no typescript, agora soavam bem mais naturais que no primeiro contato na época.
 - Agora é mais ter paciência e sempre que cabivel, tentar adotar o uso de orientação a objetos e o uso de padrão de projetos, por questão de treinamento, assim como o solid, tenho uma jornada para aplicar e entender o uso no código.
 
 # Iniciando o Projeto Inventory Report.
@@ -137,3 +168,9 @@ Após levantar o container para interagir com os comandos de linha, é necessár
 
 
 </details>
+
+#
+
+<div align="right">
+  <img src="https://badgen.net/badge/last%20update/28-02-2023/blue">
+</div>
